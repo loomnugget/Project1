@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<title>Loom and Grable</title>
+    <!-- Mobile Compatability -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Custom CSS -->
+	<link href="portfoliocss.css" rel="stylesheet" type="text/css">
+    
+    <!-- Media Queries -->
+    <link href="queries.css" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="resources/animate.css" rel="stylesheet" type="text/css">
+    <link href="resources/normalize.css" rel="stylesheet" type="text/css">
+
+    <!-- Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="fonts.css" rel="stylesheet" type="text/css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Ajax -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+</head>
+<body>
+    
+<div class = "content-wrap">  
+<!-- HEADER -->
+<header>
+  <div id="nav-anchor"></div>
+    <nav id= 'nav'> <!-- Primary Navigation -->
+        <div class='row'>
+          		<a href="index.html"><img class='circle1 logo' src='http://s32.postimg.org/q5rurwbl1/star.png' width='50px'></a>
+            <ul class='main-nav js-main-nav'>
+                <li><a id='main-anchor' href="about.html">About</a></li>
+                <li><a id='main-anchor' href="contact.html">Contact</a></li>
+            </ul>
+            <!--Social -->
+             <ul class='social-links'>
+       
+                <li><a href='https://www.linkedin.com/'><span class ="fa fa-linkedin"></span></a></li>
+            </ul>
+        </div>
+    </nav> 
+</header>
+    
+    
+<!-- Contact -->
+<section id='contact'>
+ <!-- FORM SECTION --> 
+<h2 id = "thankyoumessage"></h2>
+<h3 id = "reloadmessage"></h3>
+    
+<div class = 'row' id ="contact-wrap">
+    <div class = 'col span-1-of-2'>
+        <h1>Contact Me</h1> 
+      <h4 class='box'>Send all your hate mail here!</h4>
+        
+    </div>
+    
+    <div class = 'col span-1-of-2'>
+              
+    <div id= 'contact-form'>  
+      <form id = 'contact-form'>
+    <!-- Display Messags -->       
+    <div id = "messages"></div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputname" name="name" placeholder="Name"/></div>
+      
+        <div class="form-group">
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
+        </div>
+            
+       <button type="submit" id="submit" class="btn enterbtn" value='submit' >Submit</button>
+          
+        </form>
+        </div>     
+          
+</div> <!-- End Container -->
+  </div> <!-- End Row -->
+</section>
+
+ </div> <!-- End Content wrap -->   
+    
+<!-- FOOTER -->    
+<footer class='myfooter'> 
+    <div class = 'row'>
+         <p>&copy; 2016</p>
+    </div>
+</footer>
+    
+    
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
